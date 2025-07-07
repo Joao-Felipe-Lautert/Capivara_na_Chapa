@@ -1,48 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000; /* Fundo preto */
-    color: #ffffff; /* Texto branco */
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #ffffff;
+}
 
-  header {
-    width: 1000px;
-    background-color: #000;
-  }
+header {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
 
-  header img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-  .produtos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 30px;
-  }
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
 
-  .produto {
-    background-color: #1a1a1a; /* Preto suave */
-    border: 2px solid #ff4500; /* Laranja fogo */
-    padding: 15px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(255, 69, 0, 0.5); /* Brilho laranja */
-  }
+.produto {
+  background-color: #1a1a1a;
+  border: 2px solid #ff4500;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+}
 
-  .produto img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
-  .preco {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #ffcc00; /* Amarelo vibrante */
-    font-weight: bold;
-  }
+.preco {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #ffcc00;
+  font-weight: bold;
+}
