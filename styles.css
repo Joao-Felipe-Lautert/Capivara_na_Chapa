@@ -7,9 +7,9 @@ body {
 }
 
 header {
-  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   background-color: #000;
-  text-align: center;
 }
 
 header img {
@@ -18,12 +18,14 @@ header img {
   display: block;
 }
 
-.produtos {
-  display: flex;
+.produtos-container {
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 40px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .produto {
